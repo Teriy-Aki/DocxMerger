@@ -5,7 +5,7 @@ This is a simple PowerShell script, which
 2. Allows you to merge files based on either filename, modification date, or creation date
 3. Has a simple GUI to track the progress and report errors
 
-All while preserving all inherent document formatting and inserting page breaks in between documents.
+All while preserving all inherent document formatting and inserting page breaks between documents.
 
 The Installation should take ~ 5 Minutes.
 
@@ -25,9 +25,9 @@ This script is designed for the context menu (via send to).
 5. Create a shortcut of the script in the same folder, then name it however you want. Open its properties and prepend "powershell.exe -ExecutionPolicy Bypass -File " (without the quotes) to the target path.
 
 # Usage
-Select all the docx files you want to merge in your file explorer. Right-click -> send to -> DocxMerger
+Select all the docx files you want to merge in your file explorer. Right-click -> Send to -> DocxMerger
 
-Press 1 to merge by filename, 2 to merge by modification date, and 3 to merge by creation date.
+Press 1 to merge by filename, 2 to merge by creation date, and 3 to merge by modification date.
 
 Done!
 
